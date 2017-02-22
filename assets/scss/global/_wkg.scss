@@ -1,0 +1,20 @@
+.search {
+    margin: 0;
+    margin-top: 2rem;
+    background-color: transparent;
+    background-image: url('../img/ico-search-def.svg');
+    background-repeat: no-repeat;
+    background-position:1rem;
+    background-size: 1rem;
+    height: 1.8rem;
+    border: 1px solid $white;
+    border-radius: .9rem;
+    padding-left: 2.2rem;
+    &:focus {
+      background-color: $white;
+      border: 1px solid $primary-color;
+      box-shadow: 0 1px 4px 0 $dark-gray inset;
+      background-image: url('../img/ico-search-focus.svg');
+    }
+}
+
